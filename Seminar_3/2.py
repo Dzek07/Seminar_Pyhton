@@ -7,12 +7,13 @@ print(a)
 
 b = []
 j=-1
-if (len(a)%2) == 0:
-    k = int(len(a)/2)
-else: k = round(len(a)/2)+1
+if (len(a)%2) != 0:
+    k = int(len(a)/2)+1
+else: k = round(len(a)/2)
 for i in range(k):
     temp = a[i] * a[i+j]
     b.append(temp)
     j = j -2
 
 print(b)
+print(k)
