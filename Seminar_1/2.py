@@ -6,6 +6,6 @@ z = int(input("Введите z: "))
 a = not (x or y or z) 
 b = not x and not y and not z
 if a == b:
-    print("Вырожение верно")
+    print("Выражение верно")
 else:
-    print("Вырожение не верно")
+    print("Выражение не верно")
