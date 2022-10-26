@@ -1,6 +1,3 @@
-from unicodedata import name
-
-
 n = int(input("Введите количество измерений от 1 до бесконечности: "))
 
 a = []
