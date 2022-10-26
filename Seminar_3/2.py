@@ -16,4 +16,3 @@ for i in range(k):
     j = j -2
 
 print(b)
-print(k)
